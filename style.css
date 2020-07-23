@@ -38,6 +38,9 @@ body{
 @media (max-width:767px){
     .container{
         max-width: none;
+    }
+    .three-block__row, .two-block__row{
+        flex-direction: column;
     }   
 }
 
@@ -148,6 +151,7 @@ main.page{
 .three-block__item {   
     background-color: #18b5a4;              
     padding: 15px;
+    margin-bottom: 15px;
 }
 .three-block__image{
     padding: 0 0 30% 0;
@@ -174,6 +178,7 @@ main.page{
 .two-block__item {
     background-color: #18b5a4;              
     padding: 15px;
+    margin-bottom: 15px;
 }
 .two-block__image{
     padding: 0 0 30% 0;
@@ -189,6 +194,11 @@ main.page{
    height: 50px;
    padding-top: 15px;
    background-color: #5e5373;
+}
+@media (max-width:360px){
+    .footer .menu__link{        
+        width: 80px;        
+    }
 }
 
        
